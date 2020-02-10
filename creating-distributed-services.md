@@ -50,7 +50,7 @@ Login using:
 >
 > Other browsers have similar procedures to accept the security exception.
 
-Once logged in, uou will see the OpenShift landing page:
+Once logged in, you will see the OpenShift landing page:
 
 ![openshift_landing]({% image_path openshift_landing.png %})
 
