@@ -112,7 +112,7 @@ For your conveience, set an environment variable in the CodeReady Workspaces Ter
 
 When the app is installed, each Pod will get an additional _sidecar_ container as described earlier.
 
-Let's wait for our application to finish deploying. Go to the overview page in _userxx-bookinfo_ project:
+Let's wait for our application to finish deploying. Go to the overview page in _userXX-bookinfo_ project:
 
 ![bookinfo]({% image_path bookinfo-deployed.png %})
 
