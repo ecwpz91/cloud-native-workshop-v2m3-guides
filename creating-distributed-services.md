@@ -94,7 +94,7 @@ Deploy the **Bookinfo application** in the bookinfo project:
 
 Next, open the `istio/bookinfo-gateway.yaml` file in CodeReady.
 
-Look for the _REPLACE WITH YOUR BOOKINFO APP URL_ (there are 2 of them) and replace them with your custom url:
+Look for the _<<REPLACE WITH YOUR BOOKINFO APP URL>>_ (there are 2 of them) and replace them with your custom url:
 
 `userXX-bookinfo-istio-system.{{ROUTE_SUBDOMAIN}}`
 
@@ -108,7 +108,7 @@ And then create the _ingress gateway_ for Bookinfo:
 
 For your conveience, set an environment variable in the CodeReady Workspaces Terminal:
 
-`echo "export BOOK_URL=REPLACE WITH YOUR BOOKINFO APP URL" >> ~/.bashrc && source ~/.bashrc` (again, replace the same value as above).
+`echo "export BOOK_URL=<<REPLACE WITH YOUR BOOKINFO APP URL>>" >> ~/.bashrc && source ~/.bashrc` (again, replace the same value as above).
 
 When the app is installed, each Pod will get an additional _sidecar_ container as described earlier.
 
